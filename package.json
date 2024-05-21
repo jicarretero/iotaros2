@@ -1,0 +1,20 @@
+{
+  "name": "rclnodejs_app",
+  "version": "0.1.0",
+  "description": "Getting started with rclnodejs",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf package-lock.json && rm -rf node_modules && rm -rf coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iotagent-node-lib": "*",
+    "async": "*",
+    "http": "*",
+    "express": "*",
+    "request": "*",
+    "logops": "*",
+    "rclnodejs": "*"
+  }
+}

@@ -1,0 +1,2 @@
+export IOTA_JSON_LD_CONTEXT=http://context/ngsi-context.jsonld
+export IOTA_CB_NGSI_VERSION=ld

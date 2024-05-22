@@ -229,7 +229,7 @@ config.ros_2.subscribers = {
 config.ros_2.system = {
   iota_id: 'ROS2System0001',
   ngsiv2_type: 'ROS2System',
-  ngsiv2_id: 'urn:ngsiv2:ROS2System:0001',
+  // ngsiv2_id: 'urn:ngsiv2:ROS2System:0001',
   service: 'openiot',
   subservice: '/',
   ngsiv2_active_attrs: [{ name: 'turtlePose', type: 'Object' }], // {name:"turtleVel", type:"Object"} ],//[],//[ {name:"turtlePose", type:"Object"} ],

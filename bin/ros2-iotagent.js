@@ -91,7 +91,7 @@ function deviceProvisioningHandler(device, callback)
     var devID = device.id;
     var activeNode = loop.ROSNodes.find(o => o.name === devID);
 
-    console.log('Tengo deviceID: ', device )
+    console.log('There is a deviceID: ', device )
 
     if (activeNode == null) {
       try {
@@ -130,7 +130,7 @@ function queryContextHandler(id, type, service, subservice, attributes, callback
 }
 
 function commandHandler(deviceId, type, service, subservice, attributes, callback) {
-  // ToDo: generate command exsecution for the whole command array
+  // ToDo: generate command execution for the whole command array
   // ToDo: validate the command payload (Check it is a convenient ROS Message)
   console.log("---------");
   console.log(deviceId);
@@ -231,7 +231,6 @@ function start () {
     // loop.startTheROS2Loop(ros2_system_conf)
     ros.startTheRobot(config)
 
-    ros.startTheRobotkr()
 }
 
 start()
